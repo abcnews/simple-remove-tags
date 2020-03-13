@@ -1,0 +1,25 @@
+/* Support up to 5 elements placed between #remove/#endremove tags */
+
+/* Child 1 */
+a[id="remove"] + :not([id="endremove"]),
+a[name="remove"] + :not([name="endremove"]),
+/* Child 2 */
+a[id="remove"] + :not([id="endremove"]) + :not([id="endremove"]),
+a[name="remove"] + :not([name="endremove"]) + :not([name="endremove"]),
+/* Child 3 */
+a[id="remove"] + :not([id="endremove"]) + :not([id="endremove"]) + :not([id="endremove"]),
+a[name="remove"] + :not([name="endremove"]) + :not([name="endremove"]) + :not([name="endremove"]),
+/* Child 4 */
+a[id="remove"] + :not([id="endremove"]) + :not([id="endremove"]) + :not([id="endremove"]) + :not([id="endremove"]),
+a[name="remove"] + :not([name="endremove"]) + :not([name="endremove"]) + :not([name="endremove"]) + :not([name="endremove"]),
+/* Child 5 */
+a[id="remove"] + :not([id="endremove"]) + :not([id="endremove"]) + :not([id="endremove"]) + :not([id="endremove"]) + :not([id="endremove"]),
+a[name="remove"] + :not([name="endremove"]) + :not([name="endremove"]) + :not([name="endremove"]) + :not([name="endremove"]) + :not([name="endremove"]),
+/* #remove tags */
+a[id="remove"],
+a[name="remove"],
+/* #endremove tags */
+a[id="endremove"],
+a[name="endremove"] {
+  display: none;
+}
