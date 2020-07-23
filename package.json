@@ -14,6 +14,10 @@
 		"start": "aunty serve"
 	},
 	"devDependencies": {
-		"@abcnews/aunty": "^10.9.1"
+		"@abcnews/aunty": "^10.9.5"
+	},
+	"dependencies": {
+		"@abcnews/env-utils": "^2.0.0",
+		"@abcnews/mount-utils": "^1.0.0"
 	}
 }
