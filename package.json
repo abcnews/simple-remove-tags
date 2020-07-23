@@ -1,6 +1,6 @@
 {
 	"name": "simple-remove-tags",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Hide a limited number of elements between #remove and #endremove tags",
 	"license": "MIT",
 	"private": true,
