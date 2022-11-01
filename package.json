@@ -1,23 +1,23 @@
 {
-	"name": "simple-remove-tags",
-	"version": "2.0.0",
-	"description": "Hide a limited number of elements between #remove and #endremove tags",
-	"license": "MIT",
-	"private": true,
-	"contributors": [
-		"Colin Gourlay <gourlay.colin@abc.net.au>"
-	],
-	"aunty": {
-		"type": "basic"
-	},
-	"scripts": {
-		"start": "aunty serve"
-	},
-	"devDependencies": {
-		"@abcnews/aunty": "^10.9.5"
-	},
-	"dependencies": {
-		"@abcnews/env-utils": "^2.0.0",
-		"@abcnews/mount-utils": "^1.0.0"
-	}
+  "name": "simple-remove-tags",
+  "version": "2.0.0",
+  "description": "Hide a limited number of elements between #startremove and #endremove tags",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Colin Gourlay <gourlay.colin@abc.net.au>",
+    "Simon Elvery <elvery.simon@abc.net.au>"
+  ],
+  "aunty": {
+    "type": "basic"
+  },
+  "scripts": {
+    "start": "aunty serve"
+  },
+  "devDependencies": {
+    "@abcnews/aunty": "^13.0.3"
+  },
+  "dependencies": {
+    "@abcnews/env-utils": "^3.0.0"
+  }
 }
