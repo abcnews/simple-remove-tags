@@ -1,9 +1,11 @@
-import { requestDOMPermit } from "@abcnews/env-utils";
+import {
+  mockDecoyActivationEvents,
+  requestDOMPermit,
+} from "@abcnews/env-utils";
 
 if (process.env.NODE_ENV === "development") {
   console.debug(`[simple-remove-tags] public path: ${__webpack_public_path__}`);
-  // TODO: Add this back once https://github.com/abcnews/env-utils/pull/26 lands
-  // mockDecoyActivationEvents();
+  mockDecoyActivationEvents();
 }
 
 // Inserts CSS into document.head with a <style> element
